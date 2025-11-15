@@ -12,8 +12,7 @@ students = {
 }
 
 for key, value in students.items():
-    print(
-        f"{key} : {value['name']}'s age is {value['age']} and got {value['grade']}%")
+    print(f"{key} : {value['name']}'s age is {value['age']} and got {value['grade']}%")
 
 students.update({105: {"name": "ABCD", "age": 17, "grade": 88.50}})
 
